@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    min-width: 1200px;
+}
+
+.header-content{
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+    color: #2e97c3;
+}
+
+/*.header-content .nav{
+    float: right;
+}*/
+/*设置导航栏*/
+.nav .menu>li{
+    float: left;
+    font-size: 20px;
+    width: 120px;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 2px;
+}
+.nav .menu>li>a{
+    color: #2e97c3;
+}
+.nav .menu>li:hover>a{
+    background: #2e97c3;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav .menu>li.active>a{
+    background: #2e97c3;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav li a{
+    display: block;
+}
